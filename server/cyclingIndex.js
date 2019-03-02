@@ -4,7 +4,7 @@ const bodyParser = require("body-parser")
 const axios = require("axios")
 require("dotenv").config()
 
-const port = 1010
+const port = 3333
 
 const app = express()
 app.use(cors())
